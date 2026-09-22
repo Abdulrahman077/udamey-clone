@@ -1,0 +1,26 @@
+2nd METHOD = "namma computer la ulla working file la vs code and cmd terminal use pnni github la upload panrathu"
+
+1st -step
+git init = "used to create connect git folder btw github and vs code"
+
+2nd step
+git status = "used to check the connection status namma create pannathu or edit pannathu yanna stage la irukunu paakura whether it is connected ot not"
+
+3rd step 
+git add . = "used to add the file"
+
+4th step 
+git branch -a = "used to check yantha branch la irukku path"
+
+5th step
+git branch -m (yantha branch mention here) = "used to pathu change i mean github branch path change panna"
+
+6th step
+git branch -a = "used to check and confirm which branch la path iruku"
+
+7th step
+git remote add origin https://github.com/Abdulrahman077/udamey-clone.git = "intha maathiri oru link neenga create panna empty repository la irukkum atha yaduthu terminal potta system la irukura working folder and files git stage ku pogum which means antha hide aah irukura git folder la pogum"
+
+8th step
+git push origin main = "used to push the file to github which means namma hide aah iruntha folder la potatha github ku push panna"
+
