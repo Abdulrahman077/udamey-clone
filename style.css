@@ -235,10 +235,11 @@ body {
     }
 
     .sale--image__offer {
-        width: 250px;
+        width: 150px;
         top: 15%;
     }
-    .sale-image{
+
+    .sale-image {
         margin-top: 10px;
     }
 }
