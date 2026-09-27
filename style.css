@@ -15,9 +15,10 @@ body {
     border-bottom: black solid 1px;
     gap: 10px;
     position: sticky;
-    top:0;
+    top: 0;
     background-color: white;
-    z-index: 1; /*used for namma yathukku first priorities kudukanum nu decide pannrathuku*/
+    z-index: 1;
+    /*used for namma yathukku first priorities kudukanum nu decide pannrathuku*/
 
 }
 
@@ -51,27 +52,32 @@ body {
     gap: 10px;
     align-items: center;
 }
-.navbar--s4{
+
+.navbar--s4 {
     display: none;
 }
+
 /*My Learning Popup*/
-.mylearning{
+.mylearning {
     position: relative;
     cursor: pointer;
 }
-.mylearning__popup{
+
+.mylearning__popup {
     position: absolute;
     background-color: white;
-    border:solid black 1px;
+    border: solid black 1px;
     width: 100px;
     top: 150%;
     padding: 20px;
     right: 0;
-    display:none
+    display: none
 }
-.mylearning:hover .mylearning__popup{
+
+.mylearning:hover .mylearning__popup {
     display: block;
 }
+
 .categories {
     display: flex;
     padding: 10px;
@@ -84,25 +90,30 @@ body {
     color: white;
     padding: 10px;
     border-radius: 30px;
-    cursor:pointer;
+    cursor: pointer;
     border: purple solid 1px;
 }
-.categories p:hover{
+
+.categories p:hover {
     transition: 1s;
     background-color: transparent;
     color: purple;
 }
-.sale-image{
+
+.sale-image {
     position: relative;
 }
+
 .sale-image img {
     width: 100%;
 }
-.sale--image__offer{
+
+.sale--image__offer {
     background-color: white;
     position: absolute;
     top: 30%;
     left: 20px;
+    width: 50%;
     border: solid brown 5px;
     padding: 20px;
     border-radius: 20px;
@@ -111,12 +122,14 @@ body {
     opacity: 0;
     animation-iteration-count: infinite;
 }
-@keyframes zoom{
-    0%{
+
+@keyframes zoom {
+    0% {
         transform: scale(0);
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: scale(1);
     }
@@ -143,67 +156,86 @@ body {
     width: 100%;
     height: 50%;
 }
-.topics{
+
+.topics {
     padding: 10px;
 }
-.topics--container{
+
+.topics--container {
     display: flex;
     gap: 10px;
     margin-top: 10px;
     flex-wrap: wrap;
 }
-.topics--container p{
+
+.topics--container p {
     border: solid black 1px;
     padding: 10px;
     flex-grow: 1;
     flex-basis: 25%;
 }
-.popular{
+
+.popular {
     padding: 10px;
 }
-.popular--container{
+
+.popular--container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
 }
-.footer{
+
+.footer {
     padding: 30px;
     background-color: black;
     color: white;
 }
-.footer--one{
+
+.footer--one {
     display: flex;
     gap: 10px;
 }
-.footer--one p{
+
+.footer--one p {
     margin: 20px;
 }
-.footer--two{
+
+.footer--two {
     margin: 20px;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
+
 /*media queries*/
 
-@media screen and (max-width:800px){
-    body{
+@media screen and (max-width:800px) {
+    body {
         font-size: 10px;
     }
 }
 
 @media screen and (max-width:600px) {
-    .course-card{
+    .course-card {
         flex-basis: 40%;
     }
-    .categories{
+
+    .categories {
         display: none;
     }
-    .navbar--s2, .navbar--s3{
-        display:none;
+
+    .navbar--s2,
+    .navbar--s3 {
+        display: none;
     }
-    .navbar--s4{
-        display:block;
+
+    .navbar--s4 {
+        display: block;
+    }
+
+    .sale--image__offer {
+        width: 250px;
+        top: 15%;
     }
 }
